@@ -6,8 +6,28 @@
             TUGAS HTML 1
         </h1>
     </center>
+    <style>
+                table{
+                    width: 800px;
+                    height: 500px;
+
+        }
+        table,td,th{
+            border: 2px solid white;
+            padding: 2px
+        }
+        td,th{
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: #dddddd;
+        }
+        tr:nth-child(odd){
+            color: white;
+        }
+    </style>
 </head>
-<body style="background-color:red;font-family:Times New Roman;">
+<body>
     <center>
         <h2 style="background-color:#FFFFFF;margin-left:10cm;margin-right:10cm;margin: top 1cm;">
             Kurikulum Merdeka
@@ -66,6 +86,272 @@
             https://ditpsd.kemdikbud.go.id/hal/kurikulum-merdeka
         </a>
     </p>
+    <p style="background-color:#FFFFFF;margin-left:10cm;margin-right:10cm;text-align:justify;">
+        Contoh Tabel Mata Pelajaran Kurikulum Merdeka: 
+    </p>
+    <center>
+        <table style="background-color: red;">
+            <tr>
+                <th rowspan="2">
+                    No
+                </th>
+                <th rowspan="2">
+                    Mata Pelajaran
+                </th>
+                <th colspan="2">
+                    Alokasi Waktu
+                </th>
+                <th rowspan="2">
+                    Total JP per Tahun
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Tatap Muka
+                </th>
+                <th style="width:75px;">
+                    P5
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    Pendidikan Agama dan Budi Pekerti
+                </td>
+                <td>
+                    72(2)
+                </td>
+                <td>
+                    36
+                </td>
+                <td>
+                    108
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Pendidikan Pancasila
+                </td>
+                <td>
+                    54(2)
+                </td>
+                <td>
+                    18
+                </td>
+                <td>
+                    72
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    Bahasa Indonesia
+                </td>
+                <td>
+                    108(3)
+                </td>
+                <td>
+                    36
+                </td>
+                <td>
+                    144
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    Bahasa Inggris
+                </td>
+                <td>
+                    54(2)
+                </td>
+                <td>
+                    18
+                </td>
+                <td>
+                    72
+                </td>
+            </tr>
+            <Tr>
+                <td>
+                    5
+                </td>
+                <td>
+                    Matematika
+                </td>
+                <td>
+                    108(3)
+                </td>
+                <td>
+                    36
+                </td>
+                <td>
+                    144
+                </td>
+            </Tr>
+            <tr>
+                <td>
+                    6
+                </td>
+                <td>
+                    IPA: Fisika, Kimia, Biologi
+                </td>
+                <td>
+                    216(6)
+                </td>
+                <td>
+                    108
+                </td>
+                <td>
+                    324
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    7
+                </td>
+                <td>
+                    IPS: Sosiologi, Ekonomi, Sejarah, Geografi
+                </td>
+                <td>
+                    288(8)
+                </td>
+                <td>
+                    144
+                </td>
+                <td>
+                    432
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    8
+                </td>
+                <td>
+                    Pendidikan Jasmanai, Olah Raga dan Kesehatan
+                </td>
+                <td> 
+                    72(2)
+                </td>
+                <td>
+                    36
+                </td>
+                <td>
+                    108
+                </td>
+            </tr>
+            <Tr>
+                <td>
+                    9
+                </td>
+                <td>
+                    Informatika
+                </td>
+                <td>
+                    72(2)
+                </td>
+                <td>
+                    36
+                </td>
+                <td>
+                    108
+                </td>
+            </Tr>
+            <tr>
+                <td>
+                    10
+                </td>
+                <td>
+                    Seni Prakarya
+                </td>
+                <td>
+                    54(2)
+                </td>
+                <td>
+                    18
+                </td>
+                <td>
+                    72
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11
+                </td>
+                <td>
+                    Muatan Lokal
+                </td>
+                <td>
+                    72(2)
+                </td>
+                <td>
+                    -
+                </td>
+                <td>
+                    72
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Total
+                </td>
+                <td>
+                    1098(32)
+                </td>
+                <td>
+                    486
+                </td>
+                <td>
+                    1584
+                </td>
+            </tr>
+        </table>
+    </center>
+    <br>
+    <br>
+    <form style="margin-left:10cm;margin-right:10cm;text-align:justify;" action="">
+        <label for="NamaSiswa">
+            Nama Siswa:
+        </label>
+        <br>
+        <input type="text" id="NamaSiswa" name="NamaSiswa" value="">
+        <br>
+        <label for="NIS">
+            Nomer Induk Siswa:
+        </label>
+        <br>
+        <input type="text" id="NIS" name="NIS" value="">
+        <br>
+        <br>
+        <label>
+            Mata pelajaran favorit:
+        </label>
+        <br>
+        <select id="Mapel" name="mapel">
+            <option value="PAI">Pendidikan Agama dan Budi Pekerti</option>
+            <option value="Pancasila">Pendidikan Pancasila</option>
+            <option value="BI">Bahasa Indonesia</option>
+            <option value="BING">Bahasa Inggris</option>
+            <option value="MTK">Matematika</option>
+            <option value="IPA">IPA: Fisika, Kimia, Biologi</option>
+            <option value="IPS">IPS: Sosiologi, Ekonomi, Sejarah, Geografi</option>
+            <option value="INF">Informatika</option>
+            <option value="SP">Seni Prakarya</option>
+            <option value="Mulok">Muatan Lokal</option>
+        </select>
+        <br>
+        <br>
+    <input type="submit" value="submit">
+    </form>
     <p style="background-color:#FFFFFF;margin-left:10cm;margin-right:10cm;text-align:justify;">
         Dibuat Oleh:
         <br>
