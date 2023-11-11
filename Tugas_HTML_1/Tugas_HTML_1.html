@@ -5,20 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Pendidikan</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Kurikulum Merdeka</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#about-us">Tentang</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <section id="home">
+            <br>
+            <br>    
             <center>
             <img src="Gambar-4.png">
             </center>
         </section>
 
+        <br id="content">
+        <br>
+        <br>
+        <br>
+
         <section>
+            <h2>Pengertian Kurikulum Merdeka</h2>
             <p>Kurikulum Merdeka adalah kurikulum dengan pembelajaran intrakurikuler yang beragam di mana konten akan lebih optimal 
             agar peserta didik memiliki cukup waktu untuk mendalami konsep dan menguatkan kompetensi. Guru 
             memiliki keleluasaan untuk memilih berbagai perangkat mengajar sehingga pembelajaran dapat disesuaikan dengan 
@@ -41,7 +57,8 @@
             sehingga tidak terikat pada konten mata pelajaran.</p>
         </section>
 
-        <section>
+        <section id="Implementasi">
+            <h2>Implementasi Kurikulum Merdeka</h2>
             <p>3 Pilihan Implementasi Kurikulum Merdeka Secara Mandiri:</p>
             <ul>
                 <li>Mandiri belajar.</li>
@@ -50,7 +67,8 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Contoh">
+            <h2>Contoh</h2>
             <p>Contoh Tabel Mata Pelajaran Kurikulum Merdeka:</p>
             <table>
                 <tr>
@@ -197,6 +215,18 @@
 
         <section>
             <p>Sumber: <a href="https://ditpsd.kemdikbud.go.id/hal/kurikulum-merdeka">https://ditpsd.kemdikbud.go.id/hal/kurikulum-merdeka</a></p>
+        </section>
+        
+        <section id="about-us">
+            <h2>Tentang saya</h2>
+            <img src="Gambar-saya.jpg" style="width: 100px;">
+            <h2>Fadli Dwi Erfianto</h2>
+            <p id="about-us-description">Saya berkuliah di Politeknik Harapan Bersama Kota Tegal mengambil jurusan teknik informatika.
+                Tujuan saya membuat web ini adalah agar dapat menyelesaikan tugas dari dosen saya. Ini adalah projek website pertama saya,
+                jadi mohon maaf bila hasilnya kurang memuaskan. Semoga saya dapat lebih berkembang agar nanti dapat membuat website yang lebih 
+                bagus.
+            </p>
+            <button id="about-us-toggle">Toggle Deskripsi</button>
         </section>
     </main>
     <footer>
